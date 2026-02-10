@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Rate Your Life – App Links</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow" />
+
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #020617;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --accent: #22c55e;
+      --accent-dark: #16a34a;
+      --border: #1f2937;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: radial-gradient(1200px 600px at 50% -10%, #020617, var(--bg));
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont,
+                   "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+
+    .card {
+      max-width: 520px;
+      background: linear-gradient(180deg, #020617, var(--card));
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 28px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: 1.6rem;
+      letter-spacing: -0.02em;
+    }
+
+    p {
+      margin: 0 0 14px;
+      line-height: 1.6;
+      color: var(--muted);
+    }
+
+    .badge {
+      display: inline-block;
+      margin-bottom: 16px;
+      padding: 6px 10px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      border-radius: 999px;
+      background: rgba(34, 197, 94, 0.15);
+      color: var(--accent);
+    }
+
+    .cta {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .cta a {
+      text-decoration: none;
+      padding: 14px 20px;
+      font-weight: 600;
+      border-radius: 12px;
+      background: linear-gradient(180deg, var(--accent), var(--accent-dark));
+      color: #052e16;
+      box-shadow: 0 10px 30px rgba(34,197,94,0.35);
+      transition: transform 0.1s ease, box-shadow 0.1s ease;
+    }
+
+    .cta a:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 14px 40px rgba(34,197,94,0.45);
+    }
+
+    footer {
+      margin-top: 22px;
+      font-size: 0.75rem;
+      color: #6b7280;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <main class="card">
+    <span class="badge">Deep Link Domain</span>
+    <h1>Rate Your Life — App Links</h1>
+
+    <p>
+      This domain powers <strong>iOS Universal Links</strong> and
+      <strong>Android App Links</strong> for the Rate Your Life app.
+    </p>
+
+    <p>
+      If the app is installed, links open directly inside it.
+      Otherwise, you’ll be guided to download it.
+    </p>
+
+    <div class="cta">
+      <!-- IMPORTANT:
+           Use a real deep link path that your app handles -->
+      <a href="https://links.rateyourlife.app/open">
+        Open the App
+      </a>
+    </div>
+
+    <footer>
+      © Rate Your Life · links.rateyourlife.app
+    </footer>
+  </main>
+</body>
+</html>
