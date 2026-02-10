@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "app.rateyourlife",
+      "sha256_cert_fingerprints": [
+        "C4:25:66:54:EA:DC:A5:75:1A:08:C5:F5:07:02:F8:CD:07:9D:FC:4F:DC:C6:61:25:C8:AC:11:10:57:2A:DB:20"
+      ]
+    }
+  }
+]
